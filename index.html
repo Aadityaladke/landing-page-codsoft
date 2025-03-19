@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our Awesome Product</h1>
+            <p>Discover how we can help you achieve your goals.</p>
+            <button onclick="scrollToContent()">Learn More</button>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <h2>Why Choose Us?</h2>
+        <div class="feature-cards">
+            <div class="feature-card">
+                <h3>Feature 1</h3>
+                <p>Our product is fast and efficient, saving you time and effort.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Feature 2</h3>
+                <p>We offer great support to ensure you have the best experience.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Feature 3</h3>
+                <p>Our product is affordable and scalable for any size business.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? We're here to help!</p>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
